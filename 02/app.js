@@ -2,6 +2,17 @@ const randomArray = createRandomArray();
 console.log(randomArray);
 
 
+for(let i=0; i<randomArray.length; i++){
+    console.log(randomArray[i]);
+}
+
+console.log('forEach:');
+randomArray.forEach((value) => {console.log(value)});
+
+const len = randomArray.length - 1;
+
+console.log('Last element:', randomArray[len]);
+
 
 // nie modyfikuj kodu poniżej!
 
