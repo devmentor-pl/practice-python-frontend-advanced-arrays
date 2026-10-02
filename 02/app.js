@@ -1,7 +1,21 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+console.log("");
+console.log("for");
+for (let i = 0; i < randomArray.length; i++){
+    console.log(randomArray[i]);
+}
 
+console.log("");
+console.log("forEach");
+randomArray.forEach((number)=>{
+    console.log(number);
+});
+
+console.log("");
+console.log("Ostatni");
+console.log(randomArray[randomArray.length-1]);
 
 // nie modyfikuj kodu poniżej!
 
